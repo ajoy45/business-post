@@ -1,0 +1,13 @@
+.ribbon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    clip-path: polygon(100% 0,0% 100%, 0 0);
+    width: 70px;
+    height: 70px;
+    
+}
+.rotted{
+    transform: rotate(-30deg);
+}

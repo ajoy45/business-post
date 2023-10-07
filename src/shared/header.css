@@ -1,0 +1,39 @@
+.header-bg{
+  background-image: url('../assets//images//header//header-shape.png'); 
+   background-repeat: no-repeat;
+  background-size:contain;
+  background-position: right;
+  background-color: white;
+  
+  
+}
+.list-color{
+    /* font-size: 18px; */
+    color: white;
+}
+.black{
+   color: black;
+}
+
+@media only screen and (max-width: 1018px){
+ .header-bg{
+    background-image:none;
+ }
+ .btn1{
+    background-color: #291958;
+    padding: 5px 10px !important;
+ }
+}
+@media only screen and (max-width: 1273px){
+ ul>li{
+   font-size: 10px;
+
+ }
+}
+@media only screen and  (max-width: 1777px){
+.a{
+   margin-right: 100px;
+
+ }
+ 
+}
